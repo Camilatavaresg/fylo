@@ -15,6 +15,14 @@
 
 }
 
+body, html {
+     margin: 0;
+     padding: 0;
+     color: white;
+}
+
 body {
      font-size: 14px;
+     background-color: var(--blue-background);
+     font-family: var(--open-sans);
 }
