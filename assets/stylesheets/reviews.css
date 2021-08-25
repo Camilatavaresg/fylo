@@ -1,14 +1,41 @@
+.reviews {
+     padding: 5rem 0;
+}
+
 .reviews-content {
      display: flex;
+     justify-content: center;
+     position: relative;
 }
 
 .quote {
-     width: 60px;
-     height: 60px;
+     width: 55px;
+     height: 55px;
+     position: absolute;
+     left: 12%;
+     top: -38px;
 }
 
 .reviews-card {
-     width: 30%;
+     width: 20%;
+     padding: 1.5rem;
      background-color: var(--blue-testimonials);
      margin: 0 1rem;
+     border-radius: 5px;
+}
+
+.review-author {
+     display: flex;
+     align-items: center;
+}
+
+.review-author img {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+}
+
+.review-author p {
+     padding-left: 1rem;
+     font-size: 13px;
 }
