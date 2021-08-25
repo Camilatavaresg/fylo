@@ -1,0 +1,14 @@
+.reviews-content {
+     display: flex;
+}
+
+.quote {
+     width: 60px;
+     height: 60px;
+}
+
+.reviews-card {
+     width: 30%;
+     background-color: var(--blue-testimonials);
+     margin: 0 1rem;
+}
