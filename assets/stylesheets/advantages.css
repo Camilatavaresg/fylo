@@ -1,0 +1,31 @@
+.advantages {
+     background-color: var(--blue-background);
+}
+
+.advantages-content {
+     width: 65%;
+     margin: 7rem auto 2rem;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.card {
+     width: 50%;
+     margin: 1rem auto;
+}
+
+.card-content {
+     text-align: center;
+     width: 68%;
+     margin: 1rem auto;
+}
+
+.card-content img {
+     height: 78px;
+}
+
+.card-content p {
+     font-size: 13px;
+     line-height: 18px;
+}
+

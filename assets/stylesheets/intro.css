@@ -2,6 +2,8 @@
      width: 55%;
      text-align: center;
      margin: 2.5rem auto;
+     background-color: var(--dark-blue);
+     position: relative;
 }
 
 .intro img {
@@ -18,7 +20,7 @@
      font-size: 14px;
      width: 55%;
      margin: 0 auto 1.5rem;
-     line-height: 21px;     
+     line-height: 21px;    
 }
 
 button {
@@ -29,4 +31,19 @@ button {
      background-image: linear-gradient(to right, var(--cyan), var(--blue));
      border: none;
      border-radius: 18px;
+}
+
+.curvy-background {
+     position: relative;
+}
+
+.curvy-background img {
+     width: fit-content;
+     position: absolute;
+     top: -330px;
+}
+
+.position-for-backg {
+     position: relative;
+     z-index: 9;
 }
