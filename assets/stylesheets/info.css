@@ -1,0 +1,20 @@
+.information {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 4rem 0;
+}
+
+.info-img img {
+     width: 520px;
+}
+
+.info-content {
+     width: 38%;
+     padding-left: 2.5rem;
+}
+
+.info-content a {
+     color: var(--cyan);
+     letter-spacing: 1.1px;
+}
