@@ -10,7 +10,7 @@
 --cyan: hsl(176, 68%, 64%); /*inside call-to-action gradient*/
 --blue: hsl(198, 60%, 50%); /*inside call-to-action gradient*/
 --light-red: hsl(0, 100%, 63%); /*error*/
---open-sans: 'Open Sans', sans-serif; /*headinga, header nav*/
+--open-sans: 'Open Sans', sans-serif; /*headings, header nav*/
 --raleway-font: 'Raleway', sans-serif;/*body*/
 
 }
@@ -18,11 +18,12 @@
 body, html {
      margin: 0;
      padding: 0;
+     box-sizing: border-box;
      color: white;
 }
 
 body {
      font-size: 14px;
-     background-color: var(--blue-background);
-     font-family: var(--open-sans);
+     background-color: var(--dark-blue);
+     font-family: var(--raleway-font);
 }

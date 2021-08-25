@@ -1,11 +1,13 @@
 header {
      display: flex;
      justify-content: space-between;
-     margin: 2rem 2rem;
+     align-items: center;
+     margin: 1.5rem 2rem 2rem;
 }
 
 header img {
      width: 150px;
+     margin-left: 2rem;
 }
 
 .menu-list {
@@ -18,6 +20,7 @@ header img {
 .menu-list-item a {
      color: white;
      text-decoration: none;
+     font-family: var(--open-sans);
      font-size: 15px;
      font-weight: 300;
 }

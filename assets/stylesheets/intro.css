@@ -1,0 +1,32 @@
+.intro {
+     width: 55%;
+     text-align: center;
+     margin: 2.5rem auto;
+}
+
+.intro img {
+     width: 515px;
+}
+
+.subtitle {
+     font-family: var(--open-sans);
+     font-weight: 600;
+     margin: 2rem 0 1.3rem;
+}
+
+.intro p {
+     font-size: 14px;
+     width: 55%;
+     margin: 0 auto 1.5rem;
+     line-height: 21px;     
+}
+
+button {
+     font-family: var(--open-sans);
+     width: 170px;
+     height: 34px;
+     color: white;
+     background-image: linear-gradient(to right, var(--cyan), var(--blue));
+     border: none;
+     border-radius: 18px;
+}
