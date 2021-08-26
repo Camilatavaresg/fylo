@@ -39,9 +39,10 @@ button {
 }
 
 .curvy-background img {
-     width: fit-content;
+     width: 100%;
+     object-fit: cover;
      position: absolute;
-     top: -330px;
+     bottom: 0;
 }
 
 .position-for-backg {
