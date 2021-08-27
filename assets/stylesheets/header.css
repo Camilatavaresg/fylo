@@ -47,21 +47,25 @@ header img {
 /* phone */
 
 @media screen and (max-width:480px) {
-     
+
      header {
           width: 100%;
+          margin-top: 1rem;
      }
 
      header img {
           width: 85px;
-          margin-left: 0.5rem;
+          margin-left: 0.8rem;
      }
 
      .menu-list {
           width: 180px;
-          padding-right: 0;
+          padding: 0 6px 0 0;
      }
 
-
+     .menu-list-item a {
+          font-size: 14px;
+          padding-left: 0.3rem;
+     }
 }
 
