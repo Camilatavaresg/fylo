@@ -55,12 +55,12 @@ header img {
 
      header img {
           width: 85px;
-          margin-left: 0.8rem;
+          margin-left: 1.5rem;
      }
 
      .menu-list {
-          width: 180px;
-          padding: 0 6px 0 0;
+          width: 160px;
+          padding: 0 18px 0 0;
      }
 
      .menu-list-item a {
