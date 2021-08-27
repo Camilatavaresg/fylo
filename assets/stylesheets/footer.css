@@ -165,4 +165,8 @@ footer {
      .early-access p {
           font-size: 14px;
      }
+
+     .early-access button {
+          width: 200px;
+     }
 }
