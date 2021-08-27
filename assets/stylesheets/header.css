@@ -24,3 +24,22 @@ header img {
      font-size: 15px;
      font-weight: 300;
 }
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+     
+     header {
+          width: 100%;
+          margin: 1.5rem 0 4rem;
+     }
+}
+
+
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     
+}
+

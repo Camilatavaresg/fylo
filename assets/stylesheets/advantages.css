@@ -31,3 +31,43 @@
      line-height: 18px;
 }
 
+/* tablet */
+
+@media screen and (max-width:768px) {
+     
+     .advantages-content {
+          flex-direction: column;
+     }
+
+     .card {
+          width: 85%;
+          margin: 1.8rem auto;
+     }
+     
+     .card-content {
+          width: 85%;
+          
+     }
+     
+     .card-content img {
+          height: 88px;
+     }
+
+     .card-content h3 {
+          font-size: 20px;
+     }
+     
+     .card-content p {
+          font-size: 13px;
+     }
+}
+
+
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     
+}
+
+
