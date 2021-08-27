@@ -92,3 +92,68 @@ footer {
 .social-media svg {
      padding-right: 25px;
 }
+
+/* tablet */
+
+@media screen and (max-width:768px) {
+     
+     .early-access {
+          width: 350px;
+          height: 240px;
+          left: calc(46% - 175px);
+          padding: 1.2rem;
+     }
+     
+     .early-access h3 {
+          font-size: 22px;
+          margin-top: 1rem;
+     }
+     
+     .early-access p {
+          width: 100%;
+     }
+     
+     .early-access input {
+          display: block;
+          width: 80%;
+          margin: 0 auto 1rem;
+     }
+
+     .early-access button {
+          height: 37px;
+          width: 220px;
+     }
+
+     .footer-content {
+          padding: 18rem 0 0;
+          width: 85%;
+     }
+
+     .footer-contact {
+          display: flex;
+          flex-direction: column;
+          width: 95%;
+     }
+     
+     .footer-links {
+          width: 80%;
+          grid-template-columns: 30% 30%;
+          padding: 1.5rem 0 2.5rem;
+     }
+     
+     .social-media {
+          align-self: flex-start;
+          justify-content: flex-start;
+          padding-top: 1rem;
+          width: 240px;
+          height: 40px;
+     }
+}
+
+
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     
+}

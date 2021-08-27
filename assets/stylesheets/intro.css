@@ -55,15 +55,20 @@ button {
 @media screen and (max-width:768px) {
      
      .intro {
-          width: 70%;
+          width: 75%;
      }
      
-     .intro img {
-          width: 430px;
+     .intro-img {
+          max-width: 430px;
+          margin: 0 auto;
+     }
+
+     .intro-img img{
+          width: 100%;
      }
      
      .subtitle {
-          font-size: 24px;
+          font-size: 21px;
      }
 
      button {
