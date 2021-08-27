@@ -84,5 +84,13 @@ button {
 
 @media screen and (max-width:480px) {
      
-     
+     .intro {
+          width: 80%;
+     }
+
+     .intro p {
+          font-size: 14px;
+          width: 80%;   
+     }
+
 }

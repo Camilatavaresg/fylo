@@ -38,7 +38,7 @@ header img {
           display: flex;
           list-style: none;
           justify-content: space-around;
-          width: 210px;
+          width: 205px;
           padding-right: 0.5rem;
      }
 }
@@ -48,6 +48,20 @@ header img {
 
 @media screen and (max-width:480px) {
      
-     
+     header {
+          width: 315px;
+     }
+
+     header img {
+          width: 85px;
+          margin-left: 0.5rem;
+     }
+
+     .menu-list {
+          width: 180px;
+          padding-right: 0;
+     }
+
+
 }
 
